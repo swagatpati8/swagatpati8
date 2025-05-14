@@ -6,10 +6,6 @@
 
 ---
 
-> 💬 “Dreams are not those which you see while sleeping, they are something that does not let you sleep.” ❤️
-
----
-
 ### 🎓 Education
 **Rutgers University, New Brunswick, NJ**  
 _B.S. in Computer Science and Data Science_  
