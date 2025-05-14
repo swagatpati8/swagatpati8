@@ -2,10 +2,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/swagatpati8/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge"/></a>
-  <a href="https://twitter.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/Twitter-black?logo=twitter&style=for-the-badge"/></a>
-  <a href="https://discord.gg/YOUR_SERVER"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&style=for-the-badge&logoColor=white"/></a>
-  <a href="https://youtube.com/@YOUR_USERNAME"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&style=for-the-badge&logoColor=white"/></a>
-  <a href="https://instagram.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&style=for-the-badge&logoColor=white"/></a>
 </p>
 
 ---
@@ -40,5 +36,3 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=swagatpati&layout=compact&theme=tokyonight)
 
 ---
-
-![Quote GIF](https://i.imgur.com/dBaSKWF.gif)
