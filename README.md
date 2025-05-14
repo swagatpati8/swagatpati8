@@ -58,15 +58,4 @@ _Spring Boot, MongoDB, React, Swagger API_
 ---
 
 ### 🛠️ Skills
-
-**Languages:** Java, Python, JavaScript (React, Angular, Next), C, Dart, HTML/CSS  
-**Frameworks & Tools:** Spring Boot, Flutter, Docker, Swagger API, Git, Tableau, Kubernetes, AWS  
-**Databases:** MongoDB, MySQL, Oracle SQL  
-**Other:** CI/CD, Agile, Automation Testing
-
----
-
-### 📊 GitHub Stats
-
-![Swagat's GitHub Stats](https://github-readme-stats.vercel.app/api?username=swagatpati&show_icons=true&theme=tokyonight)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=swagatpati&layout=compact&theme=tokyonight)
+<p align="center"> <img src="https://skillicons.dev/icons?i=java,py,js,react,angular,next,c,dart,html,css,spring,docker,flutter,git,github,swagger,kubernetes,aws,tableau,mongodb,mysql,oracle&perline=8" /> </p>
