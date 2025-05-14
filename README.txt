@@ -1,37 +1,44 @@
-Story by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<h1 align="center">Hi, I'm Swagat Pati 👋</h1>
 
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge"/></a>
+  <a href="https://twitter.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/Twitter-black?logo=twitter&style=for-the-badge"/></a>
+  <a href="https://discord.gg/YOUR_SERVER"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&style=for-the-badge&logoColor=white"/></a>
+  <a href="https://youtube.com/@YOUR_USERNAME"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&style=for-the-badge&logoColor=white"/></a>
+  <a href="https://instagram.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&style=for-the-badge&logoColor=white"/></a>
+</p>
 
-Say hello to Story, a brand new responsive one-pager for HTML5 UP! Inspired by my work
-on Carrd*, Story is built to be extremely modular and tweakable, and as such is entirely
-built on reusable, insanely customizable elements (like "spotlight" and "gallery") that
-can be endlessly duplicated and tweaked into whatever you need to tell your story --
-without, in many cases, touching *any* CSS. Check out index-demo.html for an interactive
-demo, and index.html for the actual template. Enjoy!
+---
 
-Demo images** courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+> 💬 “Dreams are not those which you see while sleeping, they are something that does not let you sleep.” ❤️
 
-PS: Delete index-demo.html and assets/js/demo.js when you're done messing with the demo
-as neither are needed in production :)
+---
 
-(* = my other side project -- carrd.co)
-(** = not included)
+### 🔭 I’m working on:
+- Airbnb Clone
+- Food Delivery Website
 
-AJ
-aj@lkn.io | @ajlkn
+### 📚 Currently learning:
+- Machine Learning
+- Data Engineering
 
+### ⚡ Fun fact:
+- I love watching movies in my free time!
 
-Credits:
+---
 
-	Demo Images:
-		Unsplash (unsplash.com)
+### 🧰 Languages and Tools:
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,py,react,nodejs,express,mongodb,mysql,postgres,git,github,bootstrap,chrome,css,html,r,rstudio&perline=10" />
+</p>
 
-	Icons:
-		Font Awesome (fontawesome.io)
+---
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+### 📊 Stats:
+![Swagat's GitHub stats](https://github-readme-stats.vercel.app/api?username=swagatpati&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=swagatpati&layout=compact&theme=tokyonight)
+
+---
+
+![Quote GIF](https://i.imgur.com/dBaSKWF.gif)
