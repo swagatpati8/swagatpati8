@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://www.linkedin.com/in/swagatpati8/">
-<img src="https://skillicons.dev/icons?i=linkedin,leetcode&perline=8" />
+<img src="https://skillicons.dev/icons?i=linkedin&perline=8" />
 </a>
 </p>
 
