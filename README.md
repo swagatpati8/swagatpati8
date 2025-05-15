@@ -1,7 +1,8 @@
 <h1 align="center">Hi, I'm Swagat Pati 👋</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/swagatpati8/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge"/></a>
+<img src="https://skillicons.dev/icons?i=java,py,js,react,angular,next,c,dart,html,css,spring,docker,flutter,git,github,swagger,kubernetes,aws,tableau,mongodb,mysql,oracle&perline=8" /> 
+  <a href="https://www.linkedin.com/in/swagatpati8/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge"/></a> </p>
 </p>
 
 ---
@@ -54,4 +55,4 @@ _Spring Boot, MongoDB, React, Swagger API_
 ---
 
 ### 🛠️ Skills
-<p align="center"> <img src="https://skillicons.dev/icons?i=java,py,js,react,angular,next,c,dart,linkedin,html,css,spring,docker,flutter,git,github,swagger,kubernetes,aws,tableau,mongodb,mysql,oracle&perline=8" /> </p>
+<p align="center"> <img src="https://skillicons.dev/icons?i=java,py,js,react,angular,next,c,dart,html,css,spring,docker,flutter,git,github,swagger,kubernetes,aws,tableau,mongodb,mysql,oracle&perline=8" /> </p>
