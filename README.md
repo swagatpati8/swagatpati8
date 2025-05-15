@@ -54,4 +54,4 @@ _Spring Boot, MongoDB, React, Swagger API_
 ---
 
 ### 🛠️ Skills
-<p align="center"> <img src="https://skillicons.dev/icons?i=java,py,js,react,angular,next,c,dart,html,css,spring,docker,flutter,git,github,swagger,kubernetes,aws,tableau,mongodb,mysql,oracle&perline=8" /> </p>
+<p align="center"> <img src="https://skillicons.dev/icons?i=java,py,js,react,angular,next,c,dart,linkedin,html,css,spring,docker,flutter,git,github,swagger,kubernetes,aws,tableau,mongodb,mysql,oracle&perline=8" /> </p>
