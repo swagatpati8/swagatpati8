@@ -2,7 +2,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/swagatpati8/"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge"/></a>
-  <a href="https://www.linkedin.com/in/swagatpati8/"><i class="fab fa-linkedin" style="color: #0077B5; font-size: 24px;"></i></a>
 </p>
 
 ---
