@@ -15,10 +15,6 @@ _B.S. in Computer Science and Data Science_
 📅 **Expected Graduation:** January 2026  
 Relevant Coursework: Data Structures, AI, Systems Programming, Computer Architecture, Data Science, Discrete Math, Internet Technology, Linear Algebra
 
-### 📚 Certifications
-- CS50's Introduction to AI with Python – _HarvardX on edX_  
-  _(Worked on 12 projects applying NLP, Reinforcement Learning, and Search Algorithms)_
-
 ---
 
 ### 🛠️ Skills
