@@ -24,9 +24,9 @@ const Navigation = () => {
   return (
     <nav
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-smooth",
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-200",
         isScrolled
-          ? "bg-background/80 backdrop-blur-lg border-b border-border"
+          ? "bg-background/90 backdrop-blur-sm border-b border-border"
           : "bg-transparent"
       )}
     >
@@ -36,7 +36,7 @@ const Navigation = () => {
             <li key={item.href}>
               <a
                 href={item.href}
-                className="text-foreground/80 hover:text-primary transition-smooth font-medium text-sm uppercase tracking-wider hover:glow-primary"
+                className="text-foreground hover:text-primary transition-colors font-medium"
               >
                 {item.label}
               </a>

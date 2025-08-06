@@ -8,48 +8,38 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 26% 6%;
-    --foreground: 220 9% 96%;
+    --background: 210 17% 8%;
+    --foreground: 210 10% 92%;
 
-    --card: 220 20% 10%;
-    --card-foreground: 220 9% 96%;
+    --card: 210 17% 11%;
+    --card-foreground: 210 10% 92%;
 
-    --popover: 220 20% 10%;
-    --popover-foreground: 220 9% 96%;
+    --popover: 210 17% 11%;
+    --popover-foreground: 210 10% 92%;
 
-    --primary: 217 91% 60%;
-    --primary-foreground: 220 26% 6%;
+    --primary: 210 100% 70%;
+    --primary-foreground: 210 17% 8%;
 
-    --secondary: 220 14% 16%;
-    --secondary-foreground: 220 9% 96%;
+    --secondary: 210 17% 14%;
+    --secondary-foreground: 210 10% 92%;
 
-    --muted: 220 14% 16%;
-    --muted-foreground: 220 9% 70%;
+    --muted: 210 17% 14%;
+    --muted-foreground: 210 10% 65%;
 
-    --accent: 262 83% 58%;
-    --accent-foreground: 220 9% 96%;
+    --accent: 210 17% 16%;
+    --accent-foreground: 210 10% 92%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 220 9% 96%;
+    --destructive-foreground: 210 10% 92%;
 
-    --border: 220 14% 16%;
-    --input: 220 14% 16%;
-    --ring: 217 91% 60%;
+    --border: 210 17% 20%;
+    --input: 210 17% 14%;
+    --ring: 210 100% 70%;
 
-    --radius: 0.75rem;
+    --radius: 0.375rem;
 
-    /* Custom portfolio colors */
-    --hero-gradient: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(262 83% 58%) 100%);
-    --section-gradient: linear-gradient(180deg, hsl(220 26% 6%) 0%, hsl(220 20% 10%) 100%);
-    --card-gradient: linear-gradient(135deg, hsl(220 20% 10%) 0%, hsl(220 14% 16%) 100%);
-    
-    /* Glow effects */
-    --glow-primary: 0 0 40px hsl(217 91% 60% / 0.3);
-    --glow-accent: 0 0 40px hsl(262 83% 58% / 0.3);
-    
-    /* Smooth transitions */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-spring: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* Simple transitions */
+    --transition: all 0.2s ease;
 
     --sidebar-background: 0 0% 98%;
 
@@ -114,39 +104,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
   }
   
-  /* Smooth scrolling */
   html {
     scroll-behavior: smooth;
-  }
-  
-  /* Custom utility classes */
-  .gradient-hero {
-    background: var(--hero-gradient);
-  }
-  
-  .gradient-section {
-    background: var(--section-gradient);
-  }
-  
-  .gradient-card {
-    background: var(--card-gradient);
-  }
-  
-  .glow-primary {
-    box-shadow: var(--glow-primary);
-  }
-  
-  .glow-accent {
-    box-shadow: var(--glow-accent);
-  }
-  
-  .transition-smooth {
-    transition: var(--transition-smooth);
-  }
-  
-  .transition-spring {
-    transition: var(--transition-spring);
   }
 }

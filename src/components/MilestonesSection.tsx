@@ -1,5 +1,3 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
 const MilestonesSection = () => {
   const milestones = [
     {
@@ -26,13 +24,11 @@ const MilestonesSection = () => {
   ];
 
   return (
-    <section id="milestones" className="py-20 gradient-section">
+    <section id="milestones" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center space-y-6 mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white">
-            Milestones
-          </h2>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto">
+          <h2 className="text-3xl font-bold text-foreground">Milestones</h2>
+          <p className="text-muted-foreground max-w-3xl mx-auto">
             A journey through my professional and academic achievements,
             highlighting key experiences and significant accomplishments.
           </p>
@@ -40,25 +36,21 @@ const MilestonesSection = () => {
 
         <div className="grid lg:grid-cols-3 gap-8">
           {milestones.map((milestone, index) => (
-            <Card
+            <div
               key={index}
-              className="gradient-card border-white/10 hover:border-primary/50 transition-spring group hover:glow-primary"
+              className="bg-card border border-border rounded p-6 hover:bg-accent transition-colors"
             >
-              <CardHeader className="text-center">
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-spring">
-                  {milestone.icon}
-                </div>
-                <CardTitle className="text-xl text-white">
+              <div className="text-center mb-6">
+                <div className="text-4xl mb-4">{milestone.icon}</div>
+                <h3 className="text-xl font-bold text-card-foreground mb-2">
                   {milestone.title}
-                </CardTitle>
+                </h3>
                 <p className="text-primary font-medium">{milestone.company}</p>
-              </CardHeader>
-              <CardContent>
-                <p className="text-white/80 leading-relaxed">
-                  {milestone.description}
-                </p>
-              </CardContent>
-            </Card>
+              </div>
+              <p className="text-muted-foreground leading-relaxed text-sm">
+                {milestone.description}
+              </p>
+            </div>
           ))}
         </div>
       </div>
