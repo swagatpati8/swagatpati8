@@ -1,0 +1,34 @@
+const ContactSection = () => {
+  return (
+    <footer id="contact" className="py-20 bg-background border-t border-border">
+      <div className="container mx-auto px-4">
+        <div className="text-center">
+          <div className="flex justify-center space-x-6">
+            <a href="https://www.linkedin.com/in/swagatpati8/" className="hover:opacity-80 transition-opacity">
+              <div className="w-12 h-12 bg-nav-accent rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold">Li</span>
+              </div>
+            </a>
+            <a href="https://github.com/swagatpati8?tab=repositories" className="hover:opacity-80 transition-opacity">
+              <div className="w-12 h-12 bg-nav-accent rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold">Gh</span>
+              </div>
+            </a>
+            <a href="mailto:swagat.pati@rutgers.edu" className="hover:opacity-80 transition-opacity">
+              <div className="w-12 h-12 bg-nav-accent rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold">@</span>
+              </div>
+            </a>
+            <a href="https://leetcode.com/u/SwagatPati/" className="hover:opacity-80 transition-opacity">
+              <div className="w-12 h-12 bg-nav-accent rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold">LC</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default ContactSection;
