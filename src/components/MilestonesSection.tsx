@@ -18,20 +18,20 @@ const MilestonesSection = () => {
     <section id="milestones" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-6">Milestones</h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold text-foreground mb-6 font-mono">Milestones</h2>
+          <p className="text-lg text-foreground max-w-3xl mx-auto font-mono">
             A journey through my professional and academic achievements, highlighting key experiences and significant accomplishments.
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {milestones.map((milestone, index) => (
-            <div key={index} className="bg-card border border-border rounded-lg p-6 hover:bg-accent transition-colors">
-              <div className="w-full h-32 bg-muted rounded-lg mb-6 flex items-center justify-center">
-                <span className="text-muted-foreground">Image {index + 1}</span>
+            <div key={index} className="p-6 hover:scale-105 transition-transform">
+              <div className="w-full h-32 bg-gradient-to-br from-green-500 to-blue-600 rounded-lg mb-6 flex items-center justify-center">
+                <span className="text-white font-bold font-mono">{milestone.title.split(' ')[0]}</span>
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-4">{milestone.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{milestone.description}</p>
+              <h3 className="text-xl font-bold text-foreground mb-4 font-mono">{milestone.title}</h3>
+              <p className="text-foreground leading-relaxed font-mono">{milestone.description}</p>
             </div>
           ))}
         </div>

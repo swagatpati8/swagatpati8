@@ -5,23 +5,23 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-card">
+    <section id="skills" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-6">Skills</h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold text-foreground mb-6 font-mono">Skills</h2>
+          <p className="text-lg text-foreground max-w-3xl mx-auto font-mono">
             A showcase of my technical skills developed through academic coursework, professional experiences, and personal projects. I am eager to apply these skills in a professional environment to contribute to impactful work.
           </p>
         </div>
 
         <div className="overflow-x-auto pb-4">
-          <div className="flex space-x-6 w-max">
+          <div className="flex space-x-6 w-max justify-center">
             {skills.map((skill, index) => (
-              <div key={index} className="flex-shrink-0 w-64 h-48 bg-muted rounded-lg flex flex-col items-center justify-center hover:bg-accent transition-colors cursor-pointer">
-                <div className="w-16 h-16 bg-nav-accent rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">{skill.substring(0, 3)}</span>
+              <div key={index} className="flex-shrink-0 w-64 h-48 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex flex-col items-center justify-center hover:scale-105 transition-transform cursor-pointer">
+                <div className="w-16 h-16 bg-white rounded-lg mb-4 flex items-center justify-center">
+                  <span className="text-black font-bold text-xs font-mono">{skill.substring(0, 3)}</span>
                 </div>
-                <h3 className="text-foreground font-semibold">{skill}</h3>
+                <h3 className="text-white font-semibold font-mono">{skill}</h3>
               </div>
             ))}
           </div>

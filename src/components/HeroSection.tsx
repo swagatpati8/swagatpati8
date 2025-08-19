@@ -4,8 +4,8 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h1 className="text-5xl font-bold text-foreground">Swagat Pati</h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
+            <h1 className="text-5xl font-bold text-foreground font-mono">Swagat Pati</h1>
+            <p className="text-xl text-foreground leading-relaxed font-mono">
               Welcome to my personal website! I'm a Computer Science major at Rutgers University, aspiring to be a Software Engineer. I thrive on solving problems, developing innovative projects, and pushing the boundaries of technology.
             </p>
             
@@ -33,8 +33,8 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="w-96 h-96 bg-muted rounded-lg flex items-center justify-center">
-              <span className="text-muted-foreground">Profile Image</span>
+            <div className="w-96 h-96 bg-background rounded-lg flex items-center justify-center">
+              <span className="text-foreground font-mono">Profile Image</span>
             </div>
           </div>
         </div>

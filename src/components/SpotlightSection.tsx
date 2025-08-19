@@ -33,16 +33,16 @@ const SpotlightSection = () => {
   return (
     <div className="py-20">
       {spotlights.map((spotlight, index) => (
-        <section key={index} className="py-16 border-b border-border last:border-b-0">
+        <section key={index} className="py-16">
           <div className="container mx-auto px-4">
             <div className={`grid lg:grid-cols-2 gap-12 items-center ${spotlight.imageAlign === 'left' ? 'lg:grid-flow-col-dense' : ''}`}>
               <div className={spotlight.imageAlign === 'left' ? 'lg:col-start-2' : ''}>
-                <h2 className="text-3xl font-bold text-foreground mb-6">{spotlight.title}</h2>
-                <p className="text-lg text-muted-foreground leading-relaxed">{spotlight.content}</p>
+                <h2 className="text-3xl font-bold text-foreground mb-6 font-mono">{spotlight.title}</h2>
+                <p className="text-lg text-foreground leading-relaxed font-mono">{spotlight.content}</p>
               </div>
               <div className={spotlight.imageAlign === 'left' ? 'lg:col-start-1' : ''}>
-                <div className="w-full h-64 bg-muted rounded-lg flex items-center justify-center">
-                  <span className="text-muted-foreground">{spotlight.title} Image</span>
+                <div className="w-full h-64 bg-background flex items-center justify-center">
+                  <span className="text-foreground font-mono">{spotlight.title} Image</span>
                 </div>
               </div>
             </div>

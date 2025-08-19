@@ -8,40 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Dark theme by default to match your original design */
-    --background: 0 0% 0%; /* #242424 */
-    --foreground: 0 0% 93%; /* rgba(255, 255, 255, 0.87) */
+    /* Seamless black theme to match your original design */
+    --background: 0 0% 0%; /* Pure black */
+    --foreground: 0 0% 100%; /* Pure white */
 
-    --card: 0 0% 14.1%;
-    --card-foreground: 0 0% 93%;
+    --card: 0 0% 0%; /* Same as background for seamless look */
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 14.1%;
-    --popover-foreground: 0 0% 93%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 0 0% 93%;
-    --primary-foreground: 0 0% 14.1%;
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 0 0% 20%;
-    --secondary-foreground: 0 0% 93%;
+    --secondary: 0 0% 0%; /* Same as background */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 18%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 0 0% 0%; /* Same as background for seamless look */
+    --muted-foreground: 0 0% 100%;
 
-    --accent: 0 0% 18%;
-    --accent-foreground: 0 0% 93%;
+    --accent: 0 0% 0%; /* Same as background */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 93%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 18%;
+    --border: 0 0% 0%; /* Invisible borders */
+    --input: 0 0% 0%;
     --ring: 221 83% 53%;
 
     --radius: 0.5rem;
 
     /* Navigation and UI elements */
-    --nav-background: 0 0% 10%;
-    --nav-foreground: 0 0% 93%;
+    --nav-background: 0 0% 0%;
+    --nav-foreground: 0 0% 100%;
     --nav-accent: 221 83% 53%;
   }
 }
@@ -53,5 +53,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', Courier, monospace;
   }
 }
