@@ -4,11 +4,11 @@ const SpotlightSection = () => {
       title: "Student",
       content: (
         <>
-          Rutgers University--New Brunswick<br />
+          Rutgers University New Brunswick<br />
           Major: Computer Science<br />
           Minor: Data Science<br />
           Expected Graduation: May 2026<br />
-          Clubs: USACS, RUCP, Rutgers Chess Club, RUBJJ
+          Clubs and Organisations: USACS, RUCP, Rutgers Chess Club, RUBJJ
         </>
       ),
       imageAlign: "right"
