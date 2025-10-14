@@ -1,15 +1,15 @@
 const PortfolioSection = () => {
   const projects = [
     {
-      title: "Job Board Application",
+      title: "Insider Trading Detection",
       description: "Spring boot, spring framework, MongoDB, React, Swagger API"
     },
     {
-      title: "AI Customer Support", 
+      title: "Warren Buffett RAG Chatbot", 
       description: "Ornare nulla proin odio consequat."
     },
     {
-      title: "Personal Website",
+      title: "MMA Fight Predictor",
       description: "html, css, google analytics, github"
     }
   ];

@@ -25,7 +25,7 @@ const SpotlightSection = () => {
     },
     {
       title: "Fitness enthusiast",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.",
+      content: "I believe the body is a temple—a perfect body supports a perfect mind. This conviction drives me to maintain physical discipline through regular, high-intensity workouts (at least thrice a week). I am also a dedicated practitioner of Brazilian Jiu-Jitsu, holding a blue belt in the sport. My training sharpens my focus, adaptability, and strategic thinking, complementing my work in tech.",
       imageAlign: "left"
     }
   ];
