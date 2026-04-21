@@ -12,7 +12,7 @@
 ### 🎓 Education
 **Rutgers University, New Brunswick, NJ**  
 _B.S. in Computer Science and Data Science_  
-📅 **Expected Graduation:** January 2026  
+📅 **Expected Graduation:** May 2026  
 Relevant Coursework: Data Structures, AI, Systems Programming, Computer Architecture, Data Science, Discrete Math, Internet Technology, Linear Algebra
 
 ---
